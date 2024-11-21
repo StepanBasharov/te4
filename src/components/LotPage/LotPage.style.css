@@ -1,0 +1,29 @@
+.lot-page {
+  margin: 12px auto;
+}
+
+.users {
+  width: fit-content;
+  display: flex;
+  margin: 12px auto;
+}
+
+.button {
+  width: 600px;
+  margin: 12px auto;
+  height: 36.5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.lot-title {
+  width: 600px;
+  height: 38px;
+  margin: 12px auto;
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+    margin: 0;
+}

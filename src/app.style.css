@@ -1,0 +1,45 @@
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.lots {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  max-width: 60%;
+  margin: 12px auto;
+}
+
+.lot {
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  border-radius: 18px;
+  width: 400px;
+  min-height: 350px;
+  display: flex;
+  flex-direction: column;
+  
+  -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.title,
+.members,
+.winners,
+.check-sub {
+  margin: 12px 0 10px;
+}
+
+.title {
+  text-align: center;
+  border-bottom: .5px solid rgba(0, 0, 0, 0.295);
+  padding: 0 20px 10px;
+}
+
+.members,
+.winners,
+.date,
+.check-sub {
+  padding-left: 10%;
+}
